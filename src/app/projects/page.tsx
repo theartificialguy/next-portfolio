@@ -21,28 +21,8 @@ const Projects = () => {
             title="CodeHub"
             link="https://codehub-liard.vercel.app"
             github="https://github.com/theartificialguy/CodeHub"
-            tags={["NextJs", "Firebase", "typescript", "zustand"]}
+            tags={["NextJs", "Firebase", "typescript", "zustand", "Tailwindcss"]}
             summary="CodeHub is a place to save and share your favourite/useful code snippets and use them anywhere anytime!"
-          />
-        </div>
-
-        <div className="col-span-6 md:col-span-4 lg:col-span-4">
-          <Project
-            img={JustChat}
-            title="JustChat"
-            github="https://github.com/theartificialguy/justchatv2"
-            tags={["React Native", "Firebase", "typescript", "Redux"]}
-            summary="JustChat is a fullstack chatting application developed using React Native for frontend and Firebase for Backend as a Service."
-          />
-        </div>
-
-        <div className="col-span-6 md:col-span-4 lg:col-span-4">
-          <Project
-            img={Netflix}
-            title="Netflix Clone"
-            github="https://github.com/theartificialguy/netflix-clone-next"
-            tags={["NextJs", "Firebase", "typescript", "Tailwindcss"]}
-            summary="A Fullstack Netflix clone developed using ReactJs (NextJs) for frontend along with Firebase as Backend as a Service."
           />
         </div>
 
@@ -53,6 +33,26 @@ const Projects = () => {
             github="https://github.com/theartificialguy/mern-todo"
             tags={["ReactJs", "ExpressJs", "MongoDb", "HTTP-Only-Cookie Auth"]}
             summary="A MERN stack app developed with JWT & HTTP-only-cookie Authentication and Authorization."
+          />
+        </div>
+
+        <div className="col-span-6 md:col-span-4 lg:col-span-4">
+          <Project
+            img={JustChat}
+            title="JustChat"
+            github="https://github.com/theartificialguy/justchatv2"
+            tags={["React Native", "Firebase", "typescript", "Redux", "Push Notifications"]}
+            summary="JustChat is a fullstack chatting application developed using React Native for frontend and Firebase for Backend as a Service."
+          />
+        </div>
+
+        <div className="col-span-6 md:col-span-4 lg:col-span-4">
+          <Project
+            img={Netflix}
+            title="Netflix Clone"
+            github="https://github.com/theartificialguy/netflix-clone-next"
+            tags={["ReactJs", "NextJs", "Firebase", "typescript", "Tailwindcss"]}
+            summary="A Fullstack Netflix clone developed using ReactJs (NextJs) for frontend along with Firebase as Backend as a Service."
           />
         </div>
       </div>
