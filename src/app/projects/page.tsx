@@ -32,7 +32,7 @@ const Projects = () => {
             title="MERN Auth App"
             github="https://github.com/theartificialguy/mern-todo"
             tags={["ReactJs", "ExpressJs", "MongoDb", "HTTP-Only-Cookie Auth"]}
-            summary="A MERN stack app developed with JWT & HTTP-only-cookie Authentication and Authorization."
+            summary="A MERN stack app developed with JWT & HTTP-only-cookie Authentication and Authorization & with custom error handling."
           />
         </div>
 
