@@ -6,6 +6,7 @@ import Project from "./components/Project";
 import CodeHub from "../../../public/images/projects/codehub.jpg";
 import JustChat from "../../../public/images/projects/justchat.jpg";
 import Netflix from "../../../public/images/projects/netflix.jpg";
+import MernAuth from "../../../public/images/projects/mern-auth.jpg";
 
 const Projects = () => {
   return (
@@ -42,6 +43,16 @@ const Projects = () => {
             github="https://github.com/theartificialguy/netflix-clone-next"
             tags={["NextJs", "Firebase", "typescript", "Tailwindcss"]}
             summary="A Fullstack Netflix clone developed using ReactJs (NextJs) for frontend along with Firebase as Backend as a Service."
+          />
+        </div>
+
+        <div className="col-span-6 md:col-span-4 lg:col-span-4">
+          <Project
+            img={MernAuth}
+            title="MERN Auth App"
+            github="https://github.com/theartificialguy/mern-todo"
+            tags={["ReactJs", "ExpressJs", "MongoDb", "HTTP-Only-Cookie Auth"]}
+            summary="A MERN stack app developed with JWT & HTTP-only-cookie Authentication and Authorization."
           />
         </div>
       </div>
